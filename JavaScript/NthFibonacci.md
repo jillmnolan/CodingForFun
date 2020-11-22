@@ -6,7 +6,7 @@
 
 ### Solution #1
 
-```
+```javascript
 // O(2^n) time | O(n) space
 function getNthFib(n) {
 	// Please write your code here...
@@ -23,7 +23,7 @@ function getNthFib(n) {
 exports.getNthFib = getNthFib;
 ```
 ### Solution #2
-```
+```javascript
 // O(2^n) time | O(n) space
 function getNthFib(n) {
 	// Please write your code here...
@@ -39,7 +39,7 @@ function getNthFib(n) {
 exports.getNthFib = getNthFib;
 ```
 ### Solution #3
-```
+```javascript
 // O(2^n) time | O(n) space
 function getNthFib(n) {
 	// Please write your code here...
