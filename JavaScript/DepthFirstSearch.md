@@ -4,7 +4,7 @@
 
 You are given a ```Node``` class that has a ```name``` and an array of optional ```children``` nodes.  When put together, nodes form an acyclic tree-like structure.  Implement the ```depthFirstSearch``` method on the ```Node``` class, which takes in an empty array, traverses the tree using the Depth-first Search approach (specifically navigating the tree from left to right), stores all of the nodes' names in the input array, and returns it.  **If you are unfamiliar with Depth-first Search approach (specifically navigating the tree from left to right), stores all of the nodes' names in the input array, and returns it.**
 
-```
+```javascript
 // Sample input
 
 
@@ -18,7 +18,7 @@ logic until the entire graph has been traversed. Do not forget to add the curren
 ## Solution(s)
 
 ### Solution #1
-```
+```javascript
 // Please do not modify the Node class, with the only exception being the depthFirstSearch method.
 class Node {
 	constructor(name) {
