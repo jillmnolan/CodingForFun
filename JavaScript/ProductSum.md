@@ -3,7 +3,7 @@
 # Instructions
 
 # Solution
-```
+```javascript
 // Use the Array.isArray function to check whether an item is a list or an integer.
 // O(n) time | O(d) space, whereby n is the total number of elements in the array, which
 // includes subelements, and d is the greatest depth of "special" arrays in the array.
