@@ -2,7 +2,7 @@
 
 ## Solution
 
-```
+```javascript
 class BinaryTree {
 	constructor(value) {
 		this.value = value;
