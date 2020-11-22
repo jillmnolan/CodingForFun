@@ -5,7 +5,7 @@ depth.  Write a function that takes in a Binary Tree and returns the sum of its 
 
 Each ```BinaryTree``` node has an integer ```value```, a ```left``` child node, and a ```right``` child node.  Children nodes can either be ```BinaryTree``` themselves or ```None``` / ```null```.
 
-```
+```javascipt
 // Sample Input
 tree =
 
@@ -24,7 +24,7 @@ To solve this question, think how to compute the depth of any given node.  Once 
 Please note that **Binary Tree** is represented by a list of ```nodes``` and a ```root``` node.  Every node has to have a unique string ```id``` that will be referenced by other nodes' ```left``` and ```right```pointers and by the ```root```.
 
 ### Solution #1
-```
+```javascript
 // Average case: when the tree is balanced.
 // O(n) time | O(h) space - where n is the number of nodes in the
 // Binary Tree and h is the height of the Binary Tree.
@@ -57,7 +57,7 @@ exports.nodeDepths = nodeDepths;
 ```
 
 ### Solution #2
-```
+```javascript
 // Average case: when the tree is balanced.
 // O(n) time | O(h) space - where n is the number of nodes in the
 // Binary Tree and h is the height of the Binary Tree.
