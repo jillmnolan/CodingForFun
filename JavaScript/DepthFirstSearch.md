@@ -15,9 +15,8 @@ You are given a ```Node``` class that has a ```name``` and an array of optional 
 The Depth-first Search algorithm works by traversing a graph branch.  In other words, before traversing any Node's sibling Nodes, its children nodes must be traversed.  How can you simply and effectively keep track of Nodes' sibling Nodes as you traverse them, all while  retaining the order in which you must traverse them?  Start at the root Node and try simply calling the depthFirstSearch method on all of its children Nodes. Then, call the depthFirstSearch method on all children Nodes of each child node. keepapplying this
 logic until the entire graph has been traversed. Do not forget to add the current Node's name to the input array at every call of depthFirstSearch.  For the purpose of this question, a ```graph``` is represented by a list of ```nodes``` and a ```startNode` node. Every node has to have a unique string ```id``` that will be referenced by other nodes' list of ```children``` and by the ```startNode```.  The searching function will be called on the ```startNode```.  Please be advised that your graph should not have cycles.
 
-## Solution(s)
+## Solution
 
-### Solution #1
 ```javascript
 // Please do not modify the Node class, with the only exception being the depthFirstSearch method.
 class Node {
