@@ -5,17 +5,17 @@ Write a function that takes in a non-empty array of distinct integers and an int
 
 Please consider using two for loops to sum all possible pairs of numbers in the input array.  What are the time and space implications of this approach?  Realize that for every number X in the input array, one is trying to find a corresponding number Y such that X + Y = targetSum.  With two variables in this equation know to you, solve for Y.  Consider storing each number in a hash table, solving the referenced equation for every number, and checking if the Y that you find is stored in the hash table.  What are the time and space implications of this approach?
 
-```
+```javascript
 O(n) time | O(n) space - where n is the length of the input array.
 ```
 
-```
+```javacript
 // Sample Input
 array = [3, 5, -4, 8, 11, 1, -1, 6]
 targetSum = 10
 ```
 
-```
+```javascript
 // Sample Output
 // These numbers could be in reversed order:
 [-1, 11]
